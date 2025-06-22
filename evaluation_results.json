@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Create a new Git branch and switch to it.",
+    "reference": "1. git branch <branch_name>\n2. git checkout <branch_name>",
+    "base_gen": "No output generated.",
+    "lora_gen": "No output generated.",
+    "base_bleu": 0.0,
+    "lora_bleu": 0.0,
+    "base_rouge": 0.0,
+    "lora_rouge": 0.0
+  },
+  {
+    "question": "Compress the folder reports into reports.tar.gz.",
+    "reference": "1. tar -czvf reports.tar.gz reports",
+    "base_gen": "No output generated.",
+    "lora_gen": "No output generated.",
+    "base_bleu": 0.0,
+    "lora_bleu": 0.0,
+    "base_rouge": 0.0,
+    "lora_rouge": 0.0
+  },
+  {
+    "question": "List all Python files in the current directory recursively.",
+    "reference": "1. find . -name '*.py'",
+    "base_gen": "No output generated.",
+    "lora_gen": "No output generated.",
+    "base_bleu": 0.0,
+    "lora_bleu": 0.0,
+    "base_rouge": 0.0,
+    "lora_rouge": 0.0
+  },
+  {
+    "question": "Set up a virtual environment and install requests.",
+    "reference": "1. python3 -m venv env\n2. source env/bin/activate\n3. pip install requests",
+    "base_gen": "1. Install the virtual environment.\n2. Install the virtual environment.",
+    "lora_gen": "1. Install the virtual environment.\n2. Install the virtual environment.",
+    "base_bleu": 0.0,
+    "lora_bleu": 0.0,
+    "base_rouge": 0.25,
+    "lora_rouge": 0.25
+  },
+  {
+    "question": "Fetch only the first ten lines of a file named output.log.",
+    "reference": "1. head -n 10 output.log",
+    "base_gen": "No output generated.",
+    "lora_gen": "No output generated.",
+    "base_bleu": 0.0,
+    "lora_bleu": 0.0,
+    "base_rouge": 0.2222222222222222,
+    "lora_rouge": 0.2222222222222222
+  },
+  {
+    "question": "How to check the size of a directory including all its contents?",
+    "reference": "1. du -sh <directory_name>",
+    "base_gen": "No output generated.",
+    "lora_gen": "No output generated.",
+    "base_bleu": 0.0,
+    "lora_bleu": 0.0,
+    "base_rouge": 0.0,
+    "lora_rouge": 0.0
+  },
+  {
+    "question": "How to find and delete all .tmp files in the current directory and its subdirectories?",
+    "reference": "1. find . -name '*.tmp' -type f -delete",
+    "base_gen": "No output generated.",
+    "lora_gen": "No output generated.",
+    "base_bleu": 0.0,
+    "lora_bleu": 0.0,
+    "base_rouge": 0.0,
+    "lora_rouge": 0.0
+  }
+]
