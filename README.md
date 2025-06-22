@@ -28,7 +28,7 @@ Fine-tuned `TinyLlama-1.1B` / `Phi-2` / `GPT-Neo-125M` (open weights, ≤ 2B par
 
 ### 🔹 Clone the repo
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Falakejaz786/agent.git
 cd your-repo-name
 ````
 ### 🔹 Run the CLI agent
@@ -62,5 +62,4 @@ The agent generates a plan, dry-runs commands (`echo <command>`), and logs to `l
 
 * Extend dataset with harder multi-step command-line tasks.
 * Add safe real command execution (sandboxed) instead of echo.
-* 
-```
+
